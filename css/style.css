@@ -1,7 +1,39 @@
+
+
 h1 {
   text-align: center;
-
+  font-size:120px;
+  font-family: 'Fleur De Leah', cursive;
 }
+
 body {
   font-family: 'Source Code Pro', monospace;
+  background-image: url("/img/nickcage.jpg");
+  background-repeat: repeat-12;
+  background-position: center top;
+  background-size: 150px;
 }
+
+.sidebar {
+  float: left;
+  width: 15%;
+  border: 5px rgb(85, 27, 177) dotted;
+  border-radius: 40px;
+  background: black;
+}
+
+.img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.gallery {
+  width: max-content;
+}
+
+.gallery > img {
+  width: calc(90%/3);
+  padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
